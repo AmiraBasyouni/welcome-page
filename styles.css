@@ -27,14 +27,14 @@ section{
 
 }
 
-@media (min-height: 818px) and (min-width:1412px){
+@media (min-height: 818px) and (min-width:1651px){
 .page{
 	height:100vh;
 }
 }
 
 
-@media (min-width:1412px){
+@media (min-width:1652px){
 .component{
 	display: flex;
 	justify-content:space-evenly;
@@ -58,7 +58,7 @@ img{
 }
 
 
-@media (max-width: 1411px){
+@media (max-width: 1651px){
 .component{
 	display:flex;
 	flex-direction:column;
