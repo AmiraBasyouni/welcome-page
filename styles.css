@@ -9,6 +9,7 @@ body{
 	padding:0;
 	margin:0;
 	background-color:#3E5C76;
+	min-width: 590px;
 }
 
 main{
@@ -45,7 +46,7 @@ section{
 
 .text-section{
 	margin: 0px 20px;
-}
+i}
 
 .page{
 	padding:20px;
