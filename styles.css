@@ -19,14 +19,15 @@ main{
 	min-height: 100vh;
 }
 
-section{
-	padding: 2em;
-}
 
 .text-section{
 	border-radius: 10px;
 	text-align: center;
 
+}
+
+img{
+	background-color: white;
 }
 
 @media (min-height: 818px) and (min-width:1651px){
@@ -36,41 +37,39 @@ section{
 }
 
 
-@media (min-width:1652px){
+@media (min-width:1340px){
 .component{
 	display: flex;
 	justify-content:space-evenly;
 	flex-direction: row;
 	align-content: space-between;
-	margin:10px 0px;
 }
-
 .text-section{
 	margin: 0px 20px;
-i}
-
+}
 .page{
 	padding:20px;
-	display:block;
 }
 img{
 	min-height:350px;
 	max-height:600px;
 }
+section{
+	padding: 2em;
+}
 }
 
 
-@media (max-width: 1651px){
+@media (max-width: 1339.9px){
 .component{
 	display:flex;
 	flex-direction:column;
-	justify-content: center;
+	justify-content:center;
 	align-items:stretch;
-	flex-wrap: wrap;
-	gap: 15px;
+	flex-wrap:wrap;
+	gap:15px;
 }
 img{
-	background-color:#3E5C76;
 	max-height:350px;
 }
 .reference{
@@ -78,6 +77,9 @@ img{
 }
 .text-section{
 	margin:20px 0;
+}
+section{
+	padding: 3em;
 }
 }
 
@@ -93,19 +95,18 @@ img{
 	background-size: cover;
 }
 
+.page:nth-child(even){
+	background-color:#E1ECF7;
+	color:#1D2D44;
+}
 
 .page:nth-child(odd){
 	background-color:#E3D5CA;
 }
 
-.page:nth-child(even){
-	background-color:#D6CCC2;
-	color:#1D2D44;
-}
-
 .pg2{
-	background-color:#1D2D44;
-	color:#F0EBD8;
+	background-color:#AECBEB;
+	color:#202020;
 	width: auto;
 }
 
@@ -154,5 +155,7 @@ footer{
 	color: black;
 	position:fixed;
 	border-radius:10px;
-	
+	font-size: 1.5em;
+	font-weight: bold;	
+	text-align: center;
 }
