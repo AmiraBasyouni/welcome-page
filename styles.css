@@ -57,6 +57,9 @@ img{
 section{
 	padding: 2em;
 }
+.section-pg2{
+	width: 25%;
+}
 }
 
 
@@ -71,6 +74,7 @@ section{
 }
 img{
 	max-height:350px;
+	padding: 10px 0px;
 }
 .reference{
 	margin: 15px 0;
@@ -104,10 +108,9 @@ section{
 	background-color:#E3D5CA;
 }
 
-.pg2{
+.section-pg2{
 	background-color:#AECBEB;
 	color:#202020;
-	width: auto;
 }
 
 .pg3{
@@ -118,6 +121,7 @@ header{
 	font-weight: bold;
 	text-align:center;
 	font-size:5em;
+	padding-bottom: 1%;
 }
 
 img{
