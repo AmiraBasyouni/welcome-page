@@ -99,6 +99,13 @@ section{
 	background-size: cover;
 }
 
+.page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .page:nth-child(even){
 	background-color:#E1ECF7;
 	color:#1D2D44;
